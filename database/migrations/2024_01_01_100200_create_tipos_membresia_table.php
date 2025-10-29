@@ -1,0 +1,23 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    public function up(): void
+    {
+        Schema::create('tipos_membresia', function (Blueprint $table) {
+            $table->id('id_tipo_membresia');
+            $table->string('nombre_membresia', 100);
+            $table->integer('duracion_dias');
+            $table->decimal('precio', 10, 2);
+        });
+    }
+
+    public function down(): void
+    {
+        Schema::dropIfExists('tipos_membresia');
+    }
+};
