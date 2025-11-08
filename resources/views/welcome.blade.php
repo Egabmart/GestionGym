@@ -105,8 +105,8 @@
         .hero {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 48px;
-            padding: 120px 0 96px;
+            gap: 56px;
+            padding: 90px 0 96px;
             align-items: center;
         }
 
@@ -318,7 +318,7 @@
             }
 
             .hero {
-                padding-top: 80px;
+                padding-top: 70px;
             }
         }
     </style>
@@ -361,11 +361,12 @@
                                 <a class="cta-link" href="#">Comenzar ahora</a>
                             @endif
                         </div>
-                        <div class="hero-visual">
-                    <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1100&q=80" alt="Personas entrenando en el gimnasio">
+                        </div>
+                    <div class="hero-visual">
+                        <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1100&q=80" alt="Personas entrenando en el gimnasio">
+                    </div>
                 </div>
-                </div>
-        </section>
+            </section>
 
         <section id="about">
             <div class="container">
@@ -417,11 +418,11 @@
                         <button type="submit">Enviar</button>
                     </form>
                     <div class="map-card">
-                        <iframe src="https://www.google.com/maps?q=https://share.google/lMXyoOr3G7TDrqzKa&output=embed" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps?q=Costado%20Noroeste%20Camino%20de%20Oriente%2C%20Managua%2C%20Nicaragua&output=embed" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
                 <p style="margin-top: 24px; color: var(--text-muted); font-size: 0.95rem;">
-                    Dirección: <a href="https://share.google/lMXyoOr3G7TDrqzKa" target="_blank" rel="noopener">https://share.google/lMXyoOr3G7TDrqzKa</a>
+                    Dirección: <a href="https://www.google.com/maps/search/?api=1&query=Costado+Noroeste+Camino+de+Oriente,+Managua,+Nicaragua" target="_blank" rel="noopener">Costado Noroeste Camino de Oriente, Managua, Nicaragua</a>
                 </p>
             </div>
         </section>
