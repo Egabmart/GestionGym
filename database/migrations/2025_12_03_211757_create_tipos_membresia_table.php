@@ -13,6 +13,7 @@ return new class extends Migration
             $table->string('nombre_membresia', 100);
             $table->integer('duracion_dias');
             $table->decimal('precio', 10, 2);
+            $table->timestamps();
         });
     }
 
